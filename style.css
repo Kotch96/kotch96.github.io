@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1, p, a {
+  color: #ffffff;
+  font-family: 'Rokkitt', serif;
+
+}
+
+.background {
+  background-image: url(https://images.unsplash.com/photo-1562912148-b4f2e32d669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-position: center;
+  background-size: cover;  
+}
+
+.container {
+  background-color: rgba(0,0,0,0.8);
+  padding: 64px;
+  width: 33%;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 400px;
+}
+
+.host {
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.host-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.link {
+  margin: 0 2px;
+  
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 100%;
+  }
+}
+
+
+h3 {
+  font-size: 20px;
+  margin: 15px 0 5px ;
+  text-align: center;
+}
+a {
+  color: #fabb19;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cc9405;
+}
+a:active {
+  color: #8a6810;
+}
+
+/* images link from unsplash*/
+
+.image {
+  height: 240px;  
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-1 {
+  background-image: url(https://images.unsplash.com/photo-1558266180-03b4da3f0429?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
+}
+.image-2 {
+  background-image: url(https://images.unsplash.com/photo-1556031444-2b34c916778a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+}
+.image-3 {
+  background-image: url(https://images.unsplash.com/photo-1556773958-f983f53e7f5c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+}
+.image-4 {
+  background-image: url(https://images.unsplash.com/photo-1562447574-a4ea99e1c122?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+}
+.image-5 {
+  background-image: url(https://images.unsplash.com/photo-1559221261-69842d4d85f9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+}
+.image-6 {
+  background-image: url(https://images.unsplash.com/photo-1543674833-13ce46ba51eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+}
+
+
+/* Start writing your code here */
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.product-item {
+  padding: 15px;
+  margin: 0 0 5px;
+  flex-grow: 1;
+  flex-basis: 200px;
+}
+
+
+
+
